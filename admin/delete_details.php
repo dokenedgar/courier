@@ -69,7 +69,10 @@ $_SESSION['adminpage']   = 'delete';
           <input type="text" class="form-control" id="shipmentDate" maxlength="25" name="shipmentDate" readonly required>
         </div>
 		
-		
+		<div class="form-group">
+          <label for="arrivalDate">Arrival Date:</label>
+          <input type="text" class="form-control" id="arrivalDate" maxlength="25" name="arrivalDate" readonly required>
+        </div>
         
 
 </div>
@@ -88,17 +91,16 @@ $_SESSION['adminpage']   = 'delete';
           <label for="destinationArea">Destination Service Area:</label>
           <input type="text" class="form-control" id="destinationArea" maxlength="25" name="destinationArea" readonly required>
         </div>
-
-        <div class="form-group">
-          <label for="arrivalDate">Arrival Date:</label>
-          <input type="text" class="form-control" id="arrivalDate" maxlength="25" name="arrivalDate" readonly required>
-        </div>
 		<!--
 		<div class="form-group">
           <label for="currentLocation">Current Location:</label>
           <input type="text" class="form-control" id="currentLocation" maxlength="25" name="currentLocation" readonly required>
         </div>
       -->
+        <div class="form-group">
+          <label for="transitTimeLeft">Transit Time Left:</label>
+          <input type="text" class="form-control" id="transitTimeLeft" maxlength="25" name="transitTimeLeft" readonly required>
+        </div>
 	<!--
 		<div class="form-group">
           <label for="deliveryStatus">Delivery Status:</label>
@@ -114,7 +116,7 @@ $_SESSION['adminpage']   = 'delete';
         </div>
         
       
-      <script type="text/javascript" src="delete.js"></script> 
+      <script type="text/javascript" src="deletes.js"></script> 
 
     </div>
 </div>

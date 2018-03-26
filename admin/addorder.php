@@ -154,11 +154,6 @@ $_SESSION['adminpage']   = 'addorder';
 <script src="../js/index.js"></script>
 <script src="../js/top.js"></script> 
 
- <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker1').datetimepicker();
-            });
-        </script>
 <!-- /js files -->
 </body>
 </html>

@@ -63,7 +63,7 @@ docRef.get()
 	   		destinationArea.value = myData.destinationArea;
 	   		//currentLocation.value = myData.currentLocation;
 	   		var dt1 = new Date();
-            var dt2 = new Date(docData.arrivalDate);
+            var dt2 = new Date(myData.arrivalDate);
 var diff = Math.floor((Date.UTC(dt2.getFullYear(), dt2.getMonth(), dt2.getDate()) - Date.UTC(dt1.getFullYear(), dt1.getMonth(), dt1.getDate()) ) /(1000 * 60 * 60 * 24));
 	   		transitTimeLeft.value = diff + " day(s)";
 	   		//deliveryStatus.value = myData.deliveryStatus;
