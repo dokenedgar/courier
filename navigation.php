@@ -17,8 +17,8 @@
 				<li <?php if (strcmp ($_SESSION['page'], 'service') == 0):?>	class="active" <?php endif ?>><a href="service.php">Services</a></li>
 				<li <?php if (strcmp ($_SESSION['page'], 'work') == 0):?>	class="active" <?php endif ?>><a href="work.php">Our Work</a></li>
 				<li <?php if (strcmp ($_SESSION['page'], 'track') == 0):?>	class="active" <?php endif ?>><a href="track.php">Track Order</a></li>
-				<li><a href="process.html">Process</a></li>
-				<li><a href="typo.html">Typography</a></li>
+				<!--<li><a href="process.html">Process</a></li>
+				<li><a href="typo.html">Typography</a></li>-->
 				<li><a href="contact.html">Contact</a></li>
 				<!--
 				<li class="dropdown">

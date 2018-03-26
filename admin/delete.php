@@ -96,11 +96,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- /footer section -->
 <a href="#0" class="cd-top">Top</a>
 <!-- js files -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/SmoothScroll.min.js"></script>
-<script src="js/index.js"></script>
-<script src="js/top.js"></script> 
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/SmoothScroll.min.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/top.js"></script> 
 <!-- /js files -->
 </body>
 </html>

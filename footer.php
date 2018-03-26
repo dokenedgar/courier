@@ -3,10 +3,12 @@
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<h3>Quick Links</h3>
 			<ul class="info-links">
-				<li><a href="viewall.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> View All Orders</a></li>
-				<li><a href="edit.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Edit Order</a></li>
-				<li><a href="delete.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Delete Order</a></li>
+				<li><a href="index.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Home</a></li>
+				<li><a href="about.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> About Us</a></li>
+				<li><a href="service.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Services</a></li>
+				<li><a href="work.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Work</a></li>
 				<li><a href="track.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Track Order</a></li>
+				<li><a href="contact.php"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Contact</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6">
