@@ -12,7 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Courier Store A Corporate Business Bootstrap Responsive Website Template | About :: w3layouts</title>
+<title>Track Order - Kenday Logistics Services</title>
 <?php include('headerfiles.html'); ?>
 </head>
 <body>

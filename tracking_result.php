@@ -5,18 +5,19 @@ function redirect_to($location){
 header("Location: $location");
 exit;
 }
-
+/*
 if (!isset($_SESSION['AdminUser'])){
   $_SESSION['notLogged']   = 'yes';
   redirect_to("admin.php");
 }
 $_SESSION['adminpage']   = 'track';
+*/
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>Track Orders - Courier Store</title>
+<title>Track Orders - Kenday Logistics Services</title>
 <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-firestore.js"></script>
 	<link href="css/colorfulTab.min.css" rel="stylesheet" type="text/css" media="all" />

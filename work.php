@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Courier Store A Corporate Business Bootstrap Responsive Website Template | Work :: w3layouts</title>
+<title>Work - Kenday Logistics Services</title>
 <link href="css/jQuery.lightninBox.css" rel="stylesheet" type="text/css" media="all" />
 <?php include('headerfiles.html') ?>
 </head>

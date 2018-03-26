@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><h1><span class="fa fa-plane" aria-hidden="true"></span>Courier Store</h1></a>
+			<a class="navbar-brand" href="index.php"><h1><span class="fa fa-plane" aria-hidden="true"></span>Kenday Logistics Services</h1></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -17,9 +17,11 @@
 				<li <?php if (strcmp ($_SESSION['page'], 'service') == 0):?>	class="active" <?php endif ?>><a href="service.php">Services</a></li>
 				<li <?php if (strcmp ($_SESSION['page'], 'work') == 0):?>	class="active" <?php endif ?>><a href="work.php">Our Work</a></li>
 				<li <?php if (strcmp ($_SESSION['page'], 'track') == 0):?>	class="active" <?php endif ?>><a href="track.php">Track Order</a></li>
+				<li <?php if (strcmp ($_SESSION['page'], 'contact') == 0):?>	class="active" <?php endif ?>><a href="contact.php">Contact</a></li>
 				<!--<li><a href="process.html">Process</a></li>
-				<li><a href="typo.html">Typography</a></li>-->
+				<li><a href="typo.html">Typography</a></li>
 				<li><a href="contact.html">Contact</a></li>
+				-->
 				<!--
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-truck" aria-hidden="true"></i> Track Order<b class="caret"></b></a>

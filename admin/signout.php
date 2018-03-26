@@ -18,6 +18,7 @@ exit;
 			unset($_SESSION['level']);
 			unset($_SESSION['pin']);
 			unset($_SESSION['username']);
+			added
 			*/
 			
 $_SESSION = array();

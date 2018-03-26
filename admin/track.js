@@ -10,6 +10,7 @@
   firebase.initializeApp(config);
 
   var firestore = firebase.firestore();
+ /*  
    //Getting the tracking codee
               var y = document.cookie;
               var x = y.split("=");
@@ -17,7 +18,26 @@
               var valArray = z.split(";");
               var realVal = valArray[0]
                   //alert(realVal);     
+PHPSESSID=a4cbe1jbllqms0ap47jf6q8b4c; 
+_ga=GA1.2.1549107693.1522034093; 
+_gid=GA1.2.1100505209.1522034093; 
+_omappvp=cFh6JhCHwTeYI0uUQ61TiSl4nbNjDuVQcB5JFuzHDJpnmxFciGyowJzC2D9DvvKJJBVUHrw6RwZQJy9MdWwICGifQPqSWRDF;
+ _omappvs=true; 
+ trackid=aaaaa
+ */
 
+ var realVal = readCookie("trackid");
+
+ function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  }
+  return null;
+}
   //const viewbtn = document.querySelector("#viewallbutton");
   //viewbtn.addEventListener("click", function(){
   //});
