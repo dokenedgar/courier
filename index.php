@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home - Kenday Logistics Services</title>
+<title>Home - Kenday Logistics</title>
 <?php include('headerfiles.html') ?>
 </head>
 <body>
@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="banner-w3layouts">
 			<div class="container">
 				<h2 class="text-center w3 w3l agileinfo">Kenday Logistics Services</h2>	
-				<p class="text-center w3 w3l agileinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+				<p class="text-center w3 w3l agileinfo">The leading brand when it comes to logistic services</p>
 			</div>
 		</div>
 	</div>
@@ -32,23 +32,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <section class="special-w3layouts">
 	<div class="container">
 		<h3 class="text-center wthree w3-agileits">Our Specialities</h3>
-		<p class="text-center wthree w3-agileits">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<p class="text-center wthree w3-agileits">We're the industry standard when it comes to:</p>
 		
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<img src="images/eye.png" alt="" class="img-responsive">
 			<h4 class="text-center">Automated Tracking</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<p class="special-p1">With our state of the art automated tracking system, we keep an eye on where our cargo / fleets are at all times.</p>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<img src="images/monitor.png" alt="" class="img-responsive">
 			<h4 class="text-center">Tracking API</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<p class="special-p1">Always know the delivery status of your packages.</p>
 		</div>
 		
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<img src="images/truck.png" alt="" class="img-responsive">
 			<h4 class="text-center">Delivered In Time</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<p class="special-p1">With our wide array of machineries and networks, your packages always arrive on time.</p>
 		</div>
 		<div class="clearfix"></div>
 	</div>
