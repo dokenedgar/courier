@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><h1><span class="fa fa-plane" aria-hidden="true"></span>Courier Store</h1></a>
+			<a class="navbar-brand" href="adminlanding.php"><h1><span class="fa fa-plane" aria-hidden="true"></span>Kenday Logistics</h1></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">

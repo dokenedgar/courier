@@ -18,18 +18,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- navigation -->
 <?php include('navigation.php') ?>
 <!-- navigation -->
-<!-- banner section -->
+
+<!-- banner section 
 <section class="inner-w3ls">
 	<div class="container">
 		<h2 class="text-center w3 w3l agileinfo wthree">Courier Store Services</h2>
 		<p class="text-center w3 w3l agileinfo wthree">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
 	</div>
 </section>
-<!-- /banner section -->
+ /banner section -->
+ <br>
 <section class="service-w3ls">
 	<div class="container">
 		<i class="fa fa-braille" aria-hidden="true"></i>	
-		<h3 class="text-center w3-agileits agileits-w3layouts agile w3-agile">Our Service Details</h3>
+		<h3 class="text-center w3-agileits agileits-w3layouts agile w3-agile">Our Services</h3>
 		<p class="text-center w3-agileits agileits-w3layouts agile w3-agile">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 	</div>	
 	<div class="container">

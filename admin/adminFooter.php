@@ -53,6 +53,6 @@
 		</div>
 		<div class="clearfix"></div>
 		<hr>
-		<p class="copyright">© 2016 Courier Store. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+		<p class="copyright">© 2018 Kenday Logistics Inc. All Rights Reserved | Design by <a href="#" target="_blank">Edgar &reg;</a></p>
 	</div>
 </section>

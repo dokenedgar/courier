@@ -19,14 +19,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- navigation -->
 <?php include('navigation.php') ?>
 <!-- navigation -->
-<!-- banner section -->
+<!-- banner section 
 <section class="inner-w3ls">
 	<div class="container">
 		<h2 class="text-center w3 w3l agileinfo wthree">About Us</h2>
 		<p class="text-center w3 w3l agileinfo wthree">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
 	</div>
 </section>
-<!-- /banner section -->
+ /banner section -->
+ <br>
 <section class="about-w3ls">
 	<div class="container">
         <!-- Intro Content -->

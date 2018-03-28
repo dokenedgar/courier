@@ -65,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <section class="info-w3ls2">
 	<div class="container">
 		<i class="fa fa-trophy" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Always Delivering Best Of Our Services</h3>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">We Always Deliver The Best Of Our Services</h3>
 		<p class="text-center">Nam commodo viverra lectus, tempor vehicula libero varius convallis. Nullam placerat, eros non efficitur vulputate, leo nisi interdum odio, sed sodales eros ex vitae nisi.</p>
 	</div>
 </section>

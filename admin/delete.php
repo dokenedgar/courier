@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Delete - Courier Store</title>
+<title>Delete - Kenday Logistics</title>
 <?php include('adminHeaders.html'); ?>
 </head>
 <body>
@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- banner section -->
 <section class="inner-w3ls">
 	<div class="container">
-		<h2 class="text-center w3 w3l agileinfo wthree">ADMIN COURIER STORE</h2>
+		<h2 class="text-center w3 w3l agileinfo wthree">ADMIN KENDAY LOGISTICS</h2>
 	</div>
 </section>
 <!-- /banner section -->
@@ -77,8 +77,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 					}
 				</script>		
+				<!--
         		<p class="track-p1">Contact Us :</p>
 							<p class="track-p2"><a href="mailto:mail@example.com">mail@example.com</a></p>
+							-->
 		</div>
 		
 		<div class="col-lg-4 col-md-4 col-sm-6">

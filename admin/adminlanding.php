@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Admin Home - Courier Store</title>
+<title>Admin Home - Kenday Logistics</title>
 <?php include('adminHeaders.html') ?>
 </head>
 <body>
@@ -32,8 +32,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- banner section -->
 <section class="inner-w3ls">
 	<div class="container">
-		<h2 class="text-center w3 w3l agileinfo wthree">AADMIN COURIER STORE</h2>
-		<p class="text-center w3 w3l agileinfo wthree">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+		<h2 class="text-center w3 w3l agileinfo wthree">ADMIN KENDAY LOGISTICS</h2>
+		<p class="text-center w3 w3l agileinfo wthree"></p>
 	</div>
 </section>
 <!-- /banner section -->

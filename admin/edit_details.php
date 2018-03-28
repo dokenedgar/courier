@@ -16,7 +16,7 @@ $_SESSION['adminpage']   = 'edit';
 <!DOCTYPE html>
 <html>
 <head>
-<title>Delete Order - Courier Store</title>
+<title>Edit Order - Kenday Logistics</title>
 <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-firestore.js"></script>
 <?php include('adminHeaders.html') ?>
