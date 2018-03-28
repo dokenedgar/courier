@@ -22,6 +22,26 @@ $_SESSION['adminpage']   = 'track';
 	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-firestore.js"></script>
 	<link href="css/colorfulTab.min.css" rel="stylesheet" type="text/css" media="all" />
 <?php include('headerfiles.html') ?>
+
+<style>
+body {
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+
+        background-color: lightblue;
+    }
+    #loader {
+        display: none;
+    }
+    #myDiv {
+        display: block;
+    }
+
+}
+</style>
 </head>
 <body onload="trackOrder()" >
 <!-- navigation -->
