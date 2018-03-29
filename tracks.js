@@ -34,13 +34,43 @@ var realVal = readCookie("trackid");
   //const viewbtn = document.querySelector("#viewallbutton");
   //viewbtn.addEventListener("click", function(){
   //});
+  var w = window;
+    //d = document,
+    
+    
+    screenWidth = w.innerWidth ;
+    y = w.innerHeight;
 
   function trackOrder(){
+
+    if (screenWidth > 600) {
+      //NOT A PHONE
+           document.getElementById("loader").style.display = "block";
+           //document.getElementById("myDiv").style.display = "none";
+           //document.getElementById("phone").style.display = "none";
+           //document.getElementById("phoneData").style.display = "none";
+           //alert("PC");
+    }
+    else{
+      //A PHONE
+        //document.getElementById("loader").style.display = "none";
+        //document.getElementById("myDiv").style.display = "none";
+        document.getElementById("phoneLoader").style.display = "block";
+       // document.getElementById("phoneData").style.display = "none";
+      // alert("Phone");
+
+    }
+
+
     //alert("hola");    //firestore.collection("samples").get()
         const docsRef = firestore.doc("samples/"+realVal).get()
                       .then(function(doc){
 
                         if (doc && doc.exists) {  
+
+
+                          if (screenWidth > 600) {
+                            //Device most likely bigger than a phone
                             //querySnapshop.forEach(function(doc){
                         var docData = doc.data();
                       //doc.data() is never undefined for query doc snpshots
@@ -92,15 +122,45 @@ var diff = Math.floor((Date.UTC(dt2.getFullYear(), dt2.getMonth(), dt2.getDate()
                       transitTimeLeft.innerHTML = diff + " day(s)";
                       //transitTimeLeft.innerHTML = docData.transitTimeLeft;
                    // });
+                        document.getElementById("loader").style.display = "none";
+                        document.getElementById("myDiv").style.display = "block";
                   }
+                  else{
+                    //Device most likely a phone
+                        //document.getElementById("loader").style.display = "none";
+                        //document.getElementById("myDiv").style.display = "block";
+                        const id = document.querySelector("#trackcode");
+                        const sender = document.querySelector("#sender");
+                        const receiver = document.querySelector("#receiver");
+                        const origin = document.querySelector("#origin");
+                        const destination = document.querySelector("#destination");
+                        const shipmentDate = document.querySelector("#shipmentDate");
+                        const arrival = document.querySelector("#arrival");
+                        const transitTimeLeft = document.querySelector("#transitTimeLeft");
+                        const myData = doc.data();
+                        id.innerText = doc.id;
+                        sender.innerText = myData.senderName;
+                        receiver.innerText = myData.receiverName;
+                        origin.innerText = myData.sourceArea;
+                        destination.innerText = myData.destinationArea;
+                        shipmentDate.innerText = myData.shipmentDate;
+                        arrival.innerText = myData.arrivalDate;
+                         var dt1 = new Date();
+                      var dt2 = new Date(myData.arrivalDate);
+var diff = Math.floor((Date.UTC(dt2.getFullYear(), dt2.getMonth(), dt2.getDate()) - Date.UTC(dt1.getFullYear(), dt1.getMonth(), dt1.getDate()) ) /(1000 * 60 * 60 * 24));
+                      transitTimeLeft.innerHTML = diff + " day(s)";
+
+                        document.getElementById("phoneLoader").style.display = "none";
+                        document.getElementById("phoneData").style.display = "block";
+                  }
+              }//END OF IF DOC EXISTS
                         else{
                             console.log("Doc not found");
                             alert("Incorrect tracking code. Check and try again");
                             //document.cookie="noTableTrue"+"=cookieValue"+'; Path=/;';
                             window.location.replace('track.php');
                         }
-                        document.getElementById("loader").style.display = "none";
-                      document.getElementById("myDiv").style.display = "block";
+                        
                       
                   }).catch(function(error){
                       console.log("Got an error: ", error);
